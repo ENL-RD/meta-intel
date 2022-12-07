@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://IGC/BiFModule/Implementation/ExternalLibraries/libclc
                     file://NOTICES.txt;md5=db621145dfb627436bc90ad600386801"
 
 SRC_URI = "git://github.com/intel/intel-graphics-compiler.git;protocol=https;name=igc \
-           git://github.com/intel/vc-intrinsics.git;protocol=https;destsuffix=git/vc-intrinsics;name=vc \
+           git://github.com/intel/vc-intrinsics.git;protocol=https;destsuffix=git/vc-intrinsics;name=vc;nobranch=1 \
            file://0001-llvm_deps.cmake-don-t-copy-header-file-when-building.patch \
            file://0003-Improve-Reproducibility-for-src-package.patch \
            file://0004-find-external-llvm-tblgen.patch \
